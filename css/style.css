@@ -135,10 +135,7 @@ footer {
 }
 
 /* ----------------- Para Telefonos ----------------- */
-@media screen and (min-width: 768px) {
-  header {
-    height: ;
-  }
+@media screen and (max-width: 768px) {
 
   .logo {
     width: 30%;
