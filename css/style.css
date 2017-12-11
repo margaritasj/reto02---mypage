@@ -1,0 +1,152 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* -------------- Estilo header -------------- */
+
+header {
+  background-color: white;
+  line-height: 100px;
+  overflow: auto;
+  color: black;
+}
+
+.logo {
+  width: 40%;
+  height: 15%;
+}
+  
+/* -------------- Estilo del menú -------------- */
+
+.menu {
+  float: right;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  margin-right: 15px;
+  display: inline-block;
+}
+
+.menu ul li:hover {
+  color: #e60026;
+  cursor: pointer;
+}
+
+.nav-bar {
+  display: none;
+}
+
+/* -------------- Estilo para titulos -------------- */
+.title{
+  background-color:#e60026;
+  color: #ffffff;
+  font-size: 1rem;
+  text-align: center;
+  letter-spacing: 2px;
+  padding: 3px;
+  margin: 1px;
+}
+
+/* -------------- Estilo para botones -------------- */
+.btn {
+  width: 20%;
+  height: 10%;
+  padding: 2%;
+  margin-top: 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #2f2e2e;
+}
+.btn:hover {
+  background-color: #e60026;
+}
+
+/* -------------- Estilo para imagen central -------------- */
+.block-images {
+  background-image: url("../assets/images/banner.jpg");
+  background-size: cover;
+  height: 500px;
+  line-height: 500px;
+}
+
+.block-images h1 {
+  font-size: 2rem;
+  color:black;
+  text-align: center;
+  padding-top: 13%;
+}
+
+
+/* -------------- Estilo para section information -------------- */
+
+section.information {
+  margin-top: 20px;
+}
+
+
+section.information p.text {
+  text-align: justify;
+}
+
+/* -------------- Estilo para section gallary -------------- */
+.gallery {
+  margin: 3px;
+} 
+
+.photos {
+  width: 300px;
+  height: 200px;
+  padding: 3px;
+}
+
+.container-gallery p {
+  text-align: justify;
+  width: 90%;
+  margin-bottom: 10px;
+  padding: 5px;
+  margin: 10px;
+} 
+
+
+/* -------------- Estilo para el footer -------------- */
+
+footer {
+  margin: 15px;
+  font-size: 1rem;
+  height: 50px;
+  line-height: 50px;
+  background-color: #e60026;
+  color: #fff;
+  text-align: center;
+}
+
+/* ----------------- Para ordenadores ----------------- */
+@media screen and (max-width: 1200px) {
+
+}
+
+/* ----------------- Para Tablets ----------------- */
+@media screen and (max-width: 992px) {
+
+}
+/* ----------------- Para Telefonos ----------------- */
+@media screen and (max-width: 768px) {
+
+}
+  /* ----------------- Estilo Hamburguesa ----------------- */
+  .menu-hamburguesa {
+    line-height: auto;
+    display: inline;
+  }
+
+  .list {
+    line-height: 50px;
+  }
+
+
